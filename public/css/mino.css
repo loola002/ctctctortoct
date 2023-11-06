@@ -7,12 +7,16 @@
 }
 
 .batr{
-    background-image: url(../img/fc630615427.jfif);
+    background-image: url(../img/imgbicona02.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 100%;
     padding: 15px;
+    padding: 80px 40px;
+    display: grid;
+    align-items: center;
+    margin-bottom: 90px;
 }
 
 .topap img{
@@ -28,18 +32,18 @@
 }
 
 .conto{
-    margin-top: 40% ;
+    
     background-color: white;
     display: grid;
 }
 
 .btn1{
     padding: 14px 16px;
-    border: none;
-    background-color: #e3091b;
-    color: white;
+    border: 1.5px #e3091b solid;
+    background-color: white;
+    color: #e3091b;
     font-size: 20px;
-    max-width: 220px;
+    padding: 10px 25px;
     justify-self: center;
     margin-bottom: 25px;
 }
@@ -74,6 +78,7 @@
     width: 190px;
     justify-self: center;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 .in2{
@@ -111,10 +116,10 @@ outline: none;
 
 
 .section{
-    padding: 1.5rem;
+    
     margin-top: 0px;
     margin: 0 15px;
-    box-shadow: 1px 1px 9px 0px rgba(75, 75, 75, 0.199);
+    
     
     background-color: white;
     
@@ -141,4 +146,9 @@ outline: none;
 .pp3{
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.upms img{
+    width: 100%;
+    margin-top: 20px;
 }
